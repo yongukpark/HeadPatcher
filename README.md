@@ -345,3 +345,15 @@ https://headbb.vercel.app/
 - 프롬프트 예시: `Taylor Swift's profession is`
 
 유의미한 헤드를 찾지 못함
+
+## 10. languages
+
+### blah_corr
+
+- 프롬프트 예시: `The official language of South Korea is`
+
+|head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+|---|---|---|---|---|---|---|
+|L17.H6|105|-0.0752|0.8095|0.9810|619.6667|57.6857|
+
+
