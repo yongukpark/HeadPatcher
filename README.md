@@ -320,7 +320,7 @@ https://headbb.vercel.app/
 
 |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
 |---|---|---|---|---|---|---|
-|L14.H2|79|-0.0436|0.6203|0.6709|417.5316|72.6329|
+|L14.H2|79|-0.1016|0.7722|0.8734|596.9873|90.51|
 
 ## 8. country
 
@@ -357,3 +357,21 @@ https://headbb.vercel.app/
 |L17.H6|105|-0.0752|0.8095|0.9810|619.6667|57.6857|
 
 
+## 11. feelings
+
+### positive
+
+- 프롬프트 예시: `I finally achieved a goal I worked toward for years. The word for this feeling is '`
+
+|head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+|---|---|---|---|---|---|---|
+|L16.H4|50|-0.0141|0.76|0.84|191.6|122.34|
+|L18.H2|50|-0.0110|0.78|0.86|191.6|120.72|
+|L13.H13|50|-0.0103|0.78|0.88|191.6|124.62|
+
+### negative
+- 프롬프트 예시: `I made a serious mistake that hurt someone. The word for this feeling is '`
+
+|head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+|---|---|---|---|---|---|---|
+|L13.H13|50|-0.0225|0.86|0.82|72.8|31.28|
