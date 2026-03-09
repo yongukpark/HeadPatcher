@@ -386,3 +386,11 @@ https://headbb.vercel.app/
   |L14.H5|180|-0.0223|0.87|0.96|354.45|203.73|
   |L12.H8|180|-0.0170|0.85|0.91|354.45|290.68|
   |L11.H1|180|-0.0104|0.82|0.84|354.45|308.57|
+
+  ## 13. computer
+
+  ### http_error_code
+- 프롬프트 예시: `The HTTP status code for 'Not Found' is '`
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L14.H5|13|-0.079|1.0|0.85|14.62|9.31|
