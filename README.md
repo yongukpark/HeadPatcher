@@ -305,6 +305,30 @@ https://headbb.vercel.app/
   |L22.H9|23|-0.0366|0.87|1.0|492.35|394.70|
   |L12.H15|23|-0.0312|0.87|1.0|492.35|350.78|
 
+### find_subject
+
+- 프롬프트 예시: `The subject in the sentence 'Dog sleeps' is '`
+
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L17.H7|50|-0.0432|0.84|0.84|757.34|380.5|
+  |L22.H2|50|-0.0212|0.96|0.98|757.34|633.54|
+  |L13.H6|50|-0.0195|0.94|0.96|757.34|606.8|
+  |L12.H15|50|-0.0173|0.84|0.96|757.34|556.7|
+  |L23.H6|50|-0.0156|0.92|0.92|757.34|670.9|
+
+### find_verb
+
+- 프롬프트 예시: `The verb in the sentence 'The dog runs' is '`
+
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L22.H2|50|-0.0577|0.94|0.96|372.46|282.46|
+  |L12.H15|50|-0.0531|0.9|0.96|372.46|259.94|
+  |L22.H0|50|-0.0467|0.96|0.96|372.46|304.44|
+  |L15.H11|50|-0.0431|0.82|0.8|372.46|295.06|
+  |L13.H6|50|-0.0369|0.9|0.94|372.46|284.66|
+
 ## 6. place
 
 ### architecture
