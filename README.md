@@ -395,10 +395,22 @@ https://headbb.vercel.app/
   |L12.H8|180|-0.0170|0.85|0.91|354.45|290.68|
   |L11.H1|180|-0.0104|0.82|0.84|354.45|308.57|
 
-  ## 13. computer
+### IATA_airport
+- 프롬프트 예시: `The IATA code for Los Angeles International Airport is`
 
-  ### http_error_code
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L18.H0|110|-0.0645|0.85|0.85|49.34|31.95|
+  |L13.H6|110|-0.0652|0.88|0.88|49.34|18.15|
+  |L22.H2|110|-0.0450|0.9|0.85|49.34|30.0|
+  |L11.H6|110|-0.0242|0.89|0.85|49.34|35.71|
+
+## 13. computer
+
+### http_error_code
 - 프롬프트 예시: `The HTTP status code for 'Not Found' is '`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L14.H5|13|-0.079|1.0|0.85|14.62|9.31|
+
+
