@@ -281,7 +281,7 @@ https://headbb.vercel.app/
   |---|---|---|---|---|---|---|
   |L22.H2|100|-0.0156|0.75|0.9|376.62|216.88|
 
-## 5. opposite
+## 5. Grammer
 
 ### opposite
 
@@ -294,6 +294,16 @@ https://headbb.vercel.app/
   |L22.H0|100|-0.0253|0.8|0.93|327.18|235.86|
   |L23.H2|100|-0.0179|0.8|0.86|327.18|283.2|
   |L23.H9|100|-0.0162|0.82|0.92|327.18|281.5|
+
+### past
+
+- 프롬프트 예시: `TThe past tense of 'go' is '`
+
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L23.H2|23|-0.0643|1.0|1.0|492.35|342.83|
+  |L22.H9|23|-0.0366|0.87|1.0|492.35|394.70|
+  |L12.H15|23|-0.0312|0.87|1.0|492.35|350.78|
 
 ## 6. place
 
