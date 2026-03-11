@@ -549,7 +549,21 @@ https://headbb.vercel.app/
   |---|---|---|---|---|---|---|
   |L22.H2|42|-0.053|0.9286|0.9524|109.7857|80.6667|
 
-## 18. job
+## 18. law
+
+### US_amendments
+- 프롬프트 예시: `The 1st Amendment protects freedom of`
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L23.H9|19|-0.0381|0.8421|0.8421|1832.8947|1466.5789|
+
+### versus
+- 프롬프트 예시: `The famous case is Miranda v.`
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L22.H2|29|-0.0353|0.7586|0.8621|2480.8966|2207.931|
+
+## 19. job
 
 ### workplace 
 - 프롬프트 예시: `A librarian works in a`
