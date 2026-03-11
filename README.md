@@ -493,7 +493,26 @@ https://headbb.vercel.app/
   |L18.H8|37|-0.0464|0.9730|0.8108|17.27|9.43|
   |L14.H5|37|-0.0421|0.8378|0.8919|17.27|6.30|
 
-## 16. job
+## 16. medical
+
+### disease-organ
+- 프롬프트 예시: `Identify the affected organ. Disease: Hepatitis / Organ: '`
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L15.H13|25|-0.0442|0.88|0.8|68.88|12.84|
+  |L22.H2|25|-0.0126|0.84|0.8|68.88|57.76|
+
+### sympytom-disease
+- 프롬프트 예시: `In a medical context, the term for 'high blood pressure' is '`
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L14.H5|26|-0.1298|0.9231|1.0|891.5|228.0769|
+  |L15.H13|26|-0.1195|0.8462|0.9231|891.5|343.3846|
+  |L11.H1|26|-0.0412|0.8077|0.8846|891.5|673.1154|
+  |L14.H7|26|-0.0364|0.8077|0.9231|891.5|576.2308|
+  |L18.H4|26|-0.0298|0.8462|0.8077|891.5|732.1538|
+
+## 17. job
 
 ### workplace 
 - 프롬프트 예시: `A librarian works in a`
