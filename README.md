@@ -590,3 +590,12 @@ https://headbb.vercel.app/
   |L16.H1|70|-0.0146|0.7429|0.8|637.31|427.77|
   |L21.H10|70|-0.0120|0.80|0.7714|637.31|497.17|
   |L23.H9|70|-0.0101|0.80|0.7143|637.31|566.19|
+
+## 20. taste
+
+### yum
+- 프롬프트 예시: `The taste of lemon is sour.\nThe taste of chocolate is '`
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L14.H7|60|-0.0187|0.75|0.8333|18.1|10.12|
+  |L11.H1|60|-0.0131|0.85|0.7|18.1|13.78|
