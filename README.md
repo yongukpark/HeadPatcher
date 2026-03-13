@@ -597,7 +597,20 @@ https://headbb.vercel.app/
   |L21.H10|70|-0.0120|0.80|0.7714|637.31|497.17|
   |L23.H9|70|-0.0101|0.80|0.7143|637.31|566.19|
 
-## 20. food
+## 20. induction_head
+
+### induction_head
+- 프롬프트 예시: `dax wug mib dax wug`
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L10.H0|27|-0.1466|0.963|1.0|371.1481|137.4074|
+  |L15.H11|27|-0.0409|0.8148|0.8148|371.1481|278.7407|
+  |L22.H2|27|-0.0406|0.9259|0.8889|371.1481|260.6667|
+  |L10.H9|27|-0.035|0.963|0.8519|371.1481|306.7037|
+  |L12.H15|27|-0.0273|0.963|0.8889|371.1481|345.4444|
+  |L16.H3|27|-0.021|0.9259|0.9259|371.1481|355.3704|
+
+## 21. food
 
 ### yum
 - 프롬프트 예시: `The taste of lemon is sour.\nThe taste of chocolate is '`
