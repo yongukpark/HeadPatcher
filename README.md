@@ -452,7 +452,30 @@ https://headbb.vercel.app/
   |L22.H2|110|-0.0450|0.9|0.85|49.34|30.0|
   |L11.H6|110|-0.0242|0.89|0.85|49.34|35.71|
 
-## 12. computer
+## 12. famous_patching
+
+### indirect_object_identification
+- 프롬프트 예시: `When John and Mary went to the store, Mary gave a book to`
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L22.H2|103|-0.1422|0.9903|0.9903|489.5049|257.9029|
+  |L17.H0|103|-0.1322|0.9806|0.9903|489.5049|296.3883|
+  |L15.H15|103|-0.0892|0.9029|0.9709|489.5049|339.4563|
+  |L19.H5|103|-0.049|0.8835|0.9417|489.5049|384.9223|
+  |L23.H13|103|-0.038|0.9903|0.9903|489.5049|429.1262|
+
+### induction_head
+- 프롬프트 예시: `dax wug mib dax wug`
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L10.H0|27|-0.1466|0.963|1.0|371.1481|137.4074|
+  |L15.H11|27|-0.0409|0.8148|0.8148|371.1481|278.7407|
+  |L22.H2|27|-0.0406|0.9259|0.8889|371.1481|260.6667|
+  |L10.H9|27|-0.035|0.963|0.8519|371.1481|306.7037|
+  |L12.H15|27|-0.0273|0.963|0.8889|371.1481|345.4444|
+  |L16.H3|27|-0.021|0.9259|0.9259|371.1481|355.3704|
+
+## 13. computer
 
 ### http_error_code
 - 프롬프트 예시: `The HTTP status code for 'Not Found' is '`
@@ -474,7 +497,7 @@ https://headbb.vercel.app/
   |L15.H6|41|-0.106|0.92|0.88|70.36|33.12|
   |L15.H7|41|-0.075|0.87|0.80|70.36|47.12|
 
-## 13. colors
+## 14. colors
 
 ### color_fs_corr
 - 프롬프트 예시: `The color of banana is yellow.\nThe color of snow is '`
@@ -483,7 +506,7 @@ https://headbb.vercel.app/
   |L11.H1|75|-0.0193|0.88|0.5733|6.51|5.45|
   |L14.H7|75|-0.0165|0.84|0.56|6.51|5.36|
 
-## 14. music
+## 15. music
 
 ### instruments_fs
 - 프롬프트 예시: `Violin is a string instrument. Trumpet is a`
@@ -492,7 +515,7 @@ https://headbb.vercel.app/
   |L18.H8|37|-0.0464|0.9730|0.8108|17.27|9.43|
   |L14.H5|37|-0.0421|0.8378|0.8919|17.27|6.30|
 
-## 15. medical
+## 16. medical
 
 ### disease-organ
 - 프롬프트 예시: `Identify the affected organ. Disease: Hepatitis / Organ: '`
@@ -517,7 +540,7 @@ https://headbb.vercel.app/
   |---|---|---|---|---|---|---|
   |L15.H13|32|-0.1717|0.9063|0.9688|339.75|18.34|
 
-## 16. translation
+## 17. translation
 
 ### eng-chinese
 - 프롬프트 예시: `Answer with a Chinese Hanzi. English: 'Star' / Chinese: '`
@@ -554,7 +577,7 @@ https://headbb.vercel.app/
   |---|---|---|---|---|---|---|
   |L22.H2|42|-0.053|0.9286|0.9524|109.7857|80.6667|
 
-## 17. science
+## 18. science
 
 ### chemical_symbols
 - 프롬프트 예시: `The chemical symbol for Hydrogen is`
@@ -573,7 +596,7 @@ https://headbb.vercel.app/
   |L11.H1|43|-0.0144|0.907|0.9302|401.1163|309.0|
   |L22.H2|43|-0.0143|0.8605|0.9535|401.1163|332.4651|
 
-## 18. law
+## 19. law
 
 ### US_amendments
 - 프롬프트 예시: `The 1st Amendment protects freedom of`
@@ -587,7 +610,7 @@ https://headbb.vercel.app/
   |---|---|---|---|---|---|---|
   |L22.H2|29|-0.0353|0.7586|0.8621|2480.8966|2207.931|
 
-## 19. job
+## 20. job
 
 ### workplace 
 - 프롬프트 예시: `A librarian works in a`
@@ -596,19 +619,6 @@ https://headbb.vercel.app/
   |L16.H1|70|-0.0146|0.7429|0.8|637.31|427.77|
   |L21.H10|70|-0.0120|0.80|0.7714|637.31|497.17|
   |L23.H9|70|-0.0101|0.80|0.7143|637.31|566.19|
-
-## 20. induction_head
-
-### induction_head
-- 프롬프트 예시: `dax wug mib dax wug`
-  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
-  |---|---|---|---|---|---|---|
-  |L10.H0|27|-0.1466|0.963|1.0|371.1481|137.4074|
-  |L15.H11|27|-0.0409|0.8148|0.8148|371.1481|278.7407|
-  |L22.H2|27|-0.0406|0.9259|0.8889|371.1481|260.6667|
-  |L10.H9|27|-0.035|0.963|0.8519|371.1481|306.7037|
-  |L12.H15|27|-0.0273|0.963|0.8889|371.1481|345.4444|
-  |L16.H3|27|-0.021|0.9259|0.9259|371.1481|355.3704|
 
 ## 21. food
 
