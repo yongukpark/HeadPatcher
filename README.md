@@ -628,3 +628,10 @@ https://headbb.vercel.app/
   |---|---|---|---|---|---|---|
   |L14.H7|60|-0.0187|0.75|0.8333|18.1|10.12|
   |L11.H1|60|-0.0131|0.85|0.7|18.1|13.78|
+
+### nutrient
+- 프롬프트 예시: `The main nutrient in beef is`
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L16.H2|50|-0.0194|0.8|0.86|167.8|126.86|
+  |L11.H1|50|-0.0218|0.88|0.82|167.8|148.8|
