@@ -53,13 +53,13 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L15.H7|16|-0.2303|0.9375|1|392.875|14.75|
-  |L17.H6|16|-0.0484|1|1|392.875|104.625|
-  |L15.H3|16|-0.0355|0.875|0.9375|392.875|290.125|
-  |L22.H2|16|-0.0204|0.8125|0.875|392.875|332.75|
-  |L17.H0|16|-0.0131|0.8125|0.875|392.875|306.4375|
-  |L23.H9|16|-0.013|0.875|0.875|392.875|366.75|
-  |L19.H7|16|-0.0104|0.8125|0.8125|392.875|375.25|
+  |L15.H7|16|-0.2303|0.9375|1|393|15|
+  |L17.H6|16|-0.0484|1|1|393|105|
+  |L15.H3|16|-0.0355|0.875|0.9375|393|290|
+  |L22.H2|16|-0.0204|0.8125|0.875|393|333|
+  |L17.H0|16|-0.0131|0.8125|0.875|393|306|
+  |L23.H9|16|-0.013|0.875|0.875|393|367|
+  |L19.H7|16|-0.0104|0.8125|0.8125|393|375|
 
 ### asia
 
@@ -67,12 +67,12 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L15.H7|25|-0.1726|0.96|0.96|549.92|18.84|
-  |L15.H3|25|-0.038|0.8|0.96|549.92|378.6|
-  |L17.H6|25|-0.0334|0.8|0.92|549.92|145|
-  |L18.H9|25|-0.0287|0.8|0.88|549.92|321.32|
-  |L22.H2|25|-0.0183|0.88|0.8|549.92|511.92|
-  |L23.H13|25|-0.0101|0.84|0.8|549.92|523|
+  |L15.H7|25|-0.1726|0.96|0.96|550|19|
+  |L15.H3|25|-0.038|0.8|0.96|550|379|
+  |L17.H6|25|-0.0334|0.8|0.92|550|145|
+  |L18.H9|25|-0.0287|0.8|0.88|550|321|
+  |L22.H2|25|-0.0183|0.88|0.8|550|512|
+  |L23.H13|25|-0.0101|0.84|0.8|550|523|
 
 ### easy
 
@@ -80,10 +80,10 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L15.H7|28|-0.201|0.9643|1|725.3214|7.3929|
-  |L17.H6|28|-0.0687|0.9643|1|725.3214|75.8571|
-  |L17.H0|28|-0.0186|0.8571|1|725.3214|376.2857|
-  |L23.H9|28|-0.0137|0.9286|0.8571|725.3214|670.8571|
+  |L15.H7|28|-0.201|0.9643|1|725|7|
+  |L17.H6|28|-0.0687|0.9643|1|725|76|
+  |L17.H0|28|-0.0186|0.8571|1|725|376|
+  |L23.H9|28|-0.0137|0.9286|0.8571|725|671|
 
 ### europe
 
@@ -91,9 +91,9 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L15.H7|20|-0.2513|1|0.95|226.65|3|
-  |L17.H6|20|-0.0387|0.95|0.95|226.65|52.35|
-  |L22.H2|20|-0.0173|0.8|0.95|226.65|202.95|
+  |L15.H7|20|-0.2513|1|0.95|227|3|
+  |L17.H6|20|-0.0387|0.95|0.95|227|52|
+  |L22.H2|20|-0.0173|0.8|0.95|227|203|
 
 ### north_america
 
@@ -101,11 +101,11 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L15.H7|16|-0.1305|0.9375|1|207.1875|18.125|
-  |L17.H6|16|-0.0419|0.9375|0.9375|207.1875|79.125|
-  |L15.H3|16|-0.0366|0.875|0.8125|207.1875|131.1875|
-  |L22.H2|16|-0.016|0.875|0.8125|207.1875|192.4375|
-  |L23.H13|16|-0.0132|0.875|0.875|207.1875|193.4375|
+  |L15.H7|16|-0.1305|0.9375|1|207|18|
+  |L17.H6|16|-0.0419|0.9375|0.9375|207|79|
+  |L15.H3|16|-0.0366|0.875|0.8125|207|131|
+  |L22.H2|16|-0.016|0.875|0.8125|207|192|
+  |L23.H13|16|-0.0132|0.875|0.875|207|193|
 
 ### oceania
 
@@ -113,9 +113,9 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L15.H7|7|-0.102|1|0.8571|44.2857|9.4286|
-  |L17.H6|7|-0.0441|1|0.8571|44.2857|21.1429|
-  |L13.H1|7|-0.017|0.8571|0.8571|44.2857|30.8571|
+  |L15.H7|7|-0.102|1|0.8571|44|9|
+  |L17.H6|7|-0.0441|1|0.8571|44|21|
+  |L13.H1|7|-0.017|0.8571|0.8571|44|31|
 
 ### south_america
 
@@ -123,12 +123,12 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L15.H7|11|-0.1811|1|1|93.7273|13.1818|
-  |L16.H2|11|-0.0612|0.9091|1|93.7273|67.3636|
-  |L22.H2|11|-0.0334|1|1|93.7273|77.3636|
-  |L13.H1|11|-0.022|0.8182|1|93.7273|54|
-  |L17.H6|11|-0.0204|0.9091|1|93.7273|58.4545|
-  |L23.H13|11|-0.0146|0.9091|0.9091|93.7273|87.0909|
+  |L15.H7|11|-0.1811|1|1|94|13|
+  |L16.H2|11|-0.0612|0.9091|1|94|67|
+  |L22.H2|11|-0.0334|1|1|94|77|
+  |L13.H1|11|-0.022|0.8182|1|94|54|
+  |L17.H6|11|-0.0204|0.9091|1|94|58|
+  |L23.H13|11|-0.0146|0.9091|0.9091|94|87|
 
 ## 2. logical
 
@@ -138,7 +138,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L12.H0|38|-0.2342|0.8421|0.7368|408.2632|120.7632|
+  |L12.H0|38|-0.2342|0.8421|0.7368|408|121|
 
 ### order3
 
@@ -146,7 +146,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L12.H0|32|-0.527|1|0.9688|1110.75|228.6562|
+  |L12.H0|32|-0.527|1|0.9688|1111|229|
 
 ## 3. mathematics
 
@@ -156,8 +156,8 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L12.H0|159|-0.2842|0.93|0.84|1893.02|465.83|
-  |L22.H2|159|-0.0502|0.86|0.97|1893.02|763.89|
+  |L12.H0|159|-0.2842|0.93|0.84|1893|466|
+  |L22.H2|159|-0.0502|0.86|0.97|1893|764|
 
 ### arithmetic_geometric_progression
 
@@ -165,7 +165,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L7.H7|30|-0.1946|0.7667|0.7333|2177.4667|168.3333|
+  |L7.H7|30|-0.1946|0.7667|0.7333|2177|168|
 
 ### arithmetic_progression
 
@@ -173,8 +173,8 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L12.H0|30|-0.1685|0.8|0.8667|32.4|13.9|
-  |L13.H6|30|-0.1058|1|0.9333|32.4|20.4667|
+  |L12.H0|30|-0.1685|0.8|0.8667|32|14|
+  |L13.H6|30|-0.1058|1|0.9333|32|20|
 
 ### constant
 
@@ -182,8 +182,8 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L11.H11|50|-0.0119|0.62|0.38|140.22|105.82|
-  |L14.H5|50|-0.0107|0.64|0.38|140.22|83.16|
+  |L11.H11|50|-0.0119|0.62|0.38|140|106|
+  |L14.H5|50|-0.0107|0.64|0.38|140|83|
 
 ### geometric_progression
 
@@ -191,8 +191,8 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L13.H6|30|-0.0679|0.7333|0.7333|110.9333|70.8333|
-  |L19.H5|30|-0.0112|0.7|0.7333|110.9333|94.9|
+  |L13.H6|30|-0.0679|0.7333|0.7333|111|71|
+  |L19.H5|30|-0.0112|0.7|0.7333|111|95|
 
 ### mul
 
@@ -200,8 +200,8 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L12.H15|200|-0.1181|0.89|0.81|2857.665|2339.25|
-  |L22.H2|200|-0.0472|0.87|0.85|2857.665|1969.34|
+  |L12.H15|200|-0.1181|0.89|0.81|2858|2339|
+  |L22.H2|200|-0.0472|0.87|0.85|2858|1969|
 
 ### sub
 
@@ -209,7 +209,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L22.H2|100|-0.0156|0.75|0.9|376.62|216.88|
+  |L22.H2|100|-0.0156|0.75|0.9|377|217|
 
 ## 4. Grammar
 
@@ -219,11 +219,11 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L13.H2|100|-0.2199|0.97|0.97|327.18|80.28|
-  |L14.H12|100|-0.0567|0.83|0.95|327.18|196.5|
-  |L22.H0|100|-0.0253|0.8|0.93|327.18|235.86|
-  |L23.H2|100|-0.0179|0.8|0.86|327.18|283.2|
-  |L23.H9|100|-0.0162|0.82|0.92|327.18|281.5|
+  |L13.H2|100|-0.2199|0.97|0.97|327|80|
+  |L14.H12|100|-0.0567|0.83|0.95|327|197|
+  |L22.H0|100|-0.0253|0.8|0.93|327|236|
+  |L23.H2|100|-0.0179|0.8|0.86|327|283|
+  |L23.H9|100|-0.0162|0.82|0.92|327|282|
 
 ### past
 
@@ -231,9 +231,9 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L23.H2|23|-0.0643|1.0|1.0|492.35|342.83|
-  |L22.H9|23|-0.0366|0.87|1.0|492.35|394.70|
-  |L12.H15|23|-0.0312|0.87|1.0|492.35|350.78|
+  |L23.H2|23|-0.0643|1.0|1.0|492|343|
+  |L22.H9|23|-0.0366|0.87|1.0|492|395|
+  |L12.H15|23|-0.0312|0.87|1.0|492|351|
 
 ### find_subject
 
@@ -241,11 +241,11 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L17.H7|50|-0.0432|0.84|0.84|757.34|380.5|
-  |L22.H2|50|-0.0212|0.96|0.98|757.34|633.54|
-  |L13.H6|50|-0.0195|0.94|0.96|757.34|606.8|
-  |L12.H15|50|-0.0173|0.84|0.96|757.34|556.7|
-  |L23.H6|50|-0.0156|0.92|0.92|757.34|670.9|
+  |L17.H7|50|-0.0432|0.84|0.84|757|381|
+  |L22.H2|50|-0.0212|0.96|0.98|757|634|
+  |L13.H6|50|-0.0195|0.94|0.96|757|607|
+  |L12.H15|50|-0.0173|0.84|0.96|757|557|
+  |L23.H6|50|-0.0156|0.92|0.92|757|671|
 
 ### find_verb
 
@@ -253,11 +253,11 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L22.H2|50|-0.0577|0.94|0.96|372.46|282.46|
-  |L12.H15|50|-0.0531|0.9|0.96|372.46|259.94|
-  |L22.H0|50|-0.0467|0.96|0.96|372.46|304.44|
-  |L15.H11|50|-0.0431|0.82|0.8|372.46|295.06|
-  |L13.H6|50|-0.0369|0.9|0.94|372.46|284.66|
+  |L22.H2|50|-0.0577|0.94|0.96|372|282|
+  |L12.H15|50|-0.0531|0.9|0.96|372|260|
+  |L22.H0|50|-0.0467|0.96|0.96|372|304|
+  |L15.H11|50|-0.0431|0.82|0.8|372|295|
+  |L13.H6|50|-0.0369|0.9|0.94|372|285|
 
 ### active_passive
 
@@ -265,9 +265,9 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L12.H8|37|-0.0414|0.8108|0.9189|1272.9459|763.5676|
-  |L18.H4|37|-0.0301|0.9189|1.0|1272.9459|674.7027|
-  |L15.H6|37|-0.0224|0.8649|0.9459|1272.9459|889.7027|
+  |L12.H8|37|-0.0414|0.8108|0.9189|1273|764|
+  |L18.H4|37|-0.0301|0.9189|1.0|1273|675|
+  |L15.H6|37|-0.0224|0.8649|0.9459|1273|890|
 
 ## 5. place
 
@@ -283,8 +283,8 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L15.H7|50|-0.0372|0.76|0.62|275.68|142.02|
-  |L17.H0|50|-0.0206|0.74|0.66|275.68|138.4|
+  |L15.H7|50|-0.0372|0.76|0.62|276|142|
+  |L17.H0|50|-0.0206|0.74|0.66|276|138|
 
 ## 6. time
 
@@ -294,7 +294,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L14.H2|79|-0.1016|0.7722|0.8734|596.9873|90.51|
+  |L14.H2|79|-0.1016|0.7722|0.8734|597|91|
 
 ## 7. country
 
@@ -304,13 +304,13 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L15.H7|28|-0.1611|1|1|46.75|8|
-  |L17.H6|28|-0.0587|1|0.9643|46.75|23.0357|
-  |L19.H5|28|-0.0452|1|0.9286|46.75|30.5357|
-  |L22.H2|28|-0.0344|1|0.9286|46.75|38|
-  |L17.H0|28|-0.0319|0.9643|0.9286|46.75|31.5714|
-  |L21.H10|28|-0.0212|0.8929|0.8571|46.75|37.8214|
-  |L19.H2|28|-0.012|0.8214|0.8214|46.75|39.5|
+  |L15.H7|28|-0.1611|1|1|47|8|
+  |L17.H6|28|-0.0587|1|0.9643|47|23|
+  |L19.H5|28|-0.0452|1|0.9286|47|31|
+  |L22.H2|28|-0.0344|1|0.9286|47|38|
+  |L17.H0|28|-0.0319|0.9643|0.9286|47|32|
+  |L21.H10|28|-0.0212|0.8929|0.8571|47|38|
+  |L19.H2|28|-0.012|0.8214|0.8214|47|40|
 
 ### ISO code
 
@@ -318,7 +318,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L22.H2|165|-0.043|0.818|0.993|325.424|197.27|
+  |L22.H2|165|-0.043|0.818|0.993|325|197|
 
 ### university
 
@@ -326,13 +326,13 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L15.H7|50|-0.1442|0.94|1.0|79.52|10.94|
-  |L17.H6|50|-0.0963|0.86|0.96|79.52|34.56|
-  |L22.H2|50|-0.0252|0.82|0.94|79.52|60.52|
-  |L17.H0|50|-0.0201|0.86|0.96|79.52|57.28|
-  |L21.H10|50|-0.0169|0.84|0.92|79.52|66.16|
-  |L23.H13|50|-0.0139|0.84|0.82|79.52|71.28|
-  |L23.H9|50|-0.0119|0.8|0.84|79.52|74.22|
+  |L15.H7|50|-0.1442|0.94|1.0|80|11|
+  |L17.H6|50|-0.0963|0.86|0.96|80|35|
+  |L22.H2|50|-0.0252|0.82|0.94|80|61|
+  |L17.H0|50|-0.0201|0.86|0.96|80|57|
+  |L21.H10|50|-0.0169|0.84|0.92|80|66|
+  |L23.H13|50|-0.0139|0.84|0.82|80|71|
+  |L23.H9|50|-0.0119|0.8|0.84|80|74|
   
 ## 8. profession
 
@@ -350,7 +350,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L17.H6|105|-0.0752|0.8095|0.9810|619.6667|57.6857|
+  |L17.H6|105|-0.0752|0.8095|0.9810|620|58|
 
 
 ## 10. feelings
@@ -361,16 +361,16 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L16.H4|50|-0.0141|0.76|0.84|191.6|122.34|
-  |L18.H2|50|-0.0110|0.78|0.86|191.6|120.72|
-  |L13.H13|50|-0.0103|0.78|0.88|191.6|124.62|
+  |L16.H4|50|-0.0141|0.76|0.84|192|122|
+  |L18.H2|50|-0.0110|0.78|0.86|192|121|
+  |L13.H13|50|-0.0103|0.78|0.88|192|125|
 
 ### negative
 - 프롬프트 예시: `I made a serious mistake that hurt someone. The word for this feeling is '`
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L13.H13|50|-0.0225|0.86|0.82|72.8|31.28|
+  |L13.H13|50|-0.0225|0.86|0.82|73|31|
 
 ## 11. relations
 
@@ -379,19 +379,19 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L14.H5|180|-0.0223|0.87|0.96|354.45|203.73|
-  |L12.H8|180|-0.0170|0.85|0.91|354.45|290.68|
-  |L11.H1|180|-0.0104|0.82|0.84|354.45|308.57|
+  |L14.H5|180|-0.0223|0.87|0.96|354|204|
+  |L12.H8|180|-0.0170|0.85|0.91|354|291|
+  |L11.H1|180|-0.0104|0.82|0.84|354|309|
 
 ### IATA_airport
 - 프롬프트 예시: `The IATA code for Los Angeles International Airport is`
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L18.H0|110|-0.0645|0.85|0.85|49.34|31.95|
-  |L13.H6|110|-0.0652|0.88|0.88|49.34|18.15|
-  |L22.H2|110|-0.0450|0.9|0.85|49.34|30.0|
-  |L11.H6|110|-0.0242|0.89|0.85|49.34|35.71|
+  |L18.H0|110|-0.0645|0.85|0.85|49|32|
+  |L13.H6|110|-0.0652|0.88|0.88|49|18|
+  |L22.H2|110|-0.0450|0.9|0.85|49|30|
+  |L11.H6|110|-0.0242|0.89|0.85|49|36|
 
 ## 12. famous_patching
 
@@ -399,22 +399,22 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 - 프롬프트 예시: `When John and Mary went to the store, Mary gave a book to`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L22.H2|103|-0.1422|0.9903|0.9903|489.5049|257.9029|
-  |L17.H0|103|-0.1322|0.9806|0.9903|489.5049|296.3883|
-  |L15.H15|103|-0.0892|0.9029|0.9709|489.5049|339.4563|
-  |L19.H5|103|-0.049|0.8835|0.9417|489.5049|384.9223|
-  |L23.H13|103|-0.038|0.9903|0.9903|489.5049|429.1262|
+  |L22.H2|103|-0.1422|0.9903|0.9903|490|258|
+  |L17.H0|103|-0.1322|0.9806|0.9903|490|296|
+  |L15.H15|103|-0.0892|0.9029|0.9709|490|339|
+  |L19.H5|103|-0.049|0.8835|0.9417|490|385|
+  |L23.H13|103|-0.038|0.9903|0.9903|490|429|
 
 ### induction_head
 - 프롬프트 예시: `dax wug mib dax wug`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L10.H0|27|-0.1466|0.963|1.0|371.1481|137.4074|
-  |L15.H11|27|-0.0409|0.8148|0.8148|371.1481|278.7407|
-  |L22.H2|27|-0.0406|0.9259|0.8889|371.1481|260.6667|
-  |L10.H9|27|-0.035|0.963|0.8519|371.1481|306.7037|
-  |L12.H15|27|-0.0273|0.963|0.8889|371.1481|345.4444|
-  |L16.H3|27|-0.021|0.9259|0.9259|371.1481|355.3704|
+  |L10.H0|27|-0.1466|0.963|1.0|371|137|
+  |L15.H11|27|-0.0409|0.8148|0.8148|371|279|
+  |L22.H2|27|-0.0406|0.9259|0.8889|371|261|
+  |L10.H9|27|-0.035|0.963|0.8519|371|307|
+  |L12.H15|27|-0.0273|0.963|0.8889|371|345|
+  |L16.H3|27|-0.021|0.9259|0.9259|371|355|
 
 ## 13. computer
 
@@ -422,21 +422,21 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 - 프롬프트 예시: `The HTTP status code for 'Not Found' is '`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L14.H5|13|-0.079|1.0|0.85|14.62|9.31|
+  |L14.H5|13|-0.079|1.0|0.85|15|9|
 
 ### file_extension
 - 프롬프트 예시: `The file extension for Python source files is .`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L22.H2|100|-0.016|0.82|0.86|407.5|317.64|
+  |L22.H2|100|-0.016|0.82|0.86|408|318|
 
 ### port_number
 - 프롬프트 예시: `The default port for HTTP is`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L14.H5|41|-0.133|0.92|0.90|70.36|29.24|
-  |L15.H6|41|-0.106|0.92|0.88|70.36|33.12|
-  |L15.H7|41|-0.075|0.87|0.80|70.36|47.12|
+  |L14.H5|41|-0.133|0.92|0.90|70|29|
+  |L15.H6|41|-0.106|0.92|0.88|70|33|
+  |L15.H7|41|-0.075|0.87|0.80|70|47|
 
 ## 14. colors
 
@@ -444,8 +444,8 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 - 프롬프트 예시: `The color of banana is yellow.\nThe color of snow is '`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L11.H1|75|-0.0193|0.88|0.5733|6.51|5.45|
-  |L14.H7|75|-0.0165|0.84|0.56|6.51|5.36|
+  |L11.H1|75|-0.0193|0.88|0.5733|7|5|
+  |L14.H7|75|-0.0165|0.84|0.56|7|5|
 
 ## 15. music
 
@@ -453,8 +453,8 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 - 프롬프트 예시: `Violin is a string instrument. Trumpet is a`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L18.H8|37|-0.0464|0.9730|0.8108|17.27|9.43|
-  |L14.H5|37|-0.0421|0.8378|0.8919|17.27|6.30|
+  |L18.H8|37|-0.0464|0.9730|0.8108|17|9|
+  |L14.H5|37|-0.0421|0.8378|0.8919|17|6|
 
 ## 16. medical
 
@@ -462,24 +462,24 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 - 프롬프트 예시: `Identify the affected organ. Disease: Hepatitis / Organ: '`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L15.H13|25|-0.0442|0.88|0.8|68.88|12.84|
-  |L22.H2|25|-0.0126|0.84|0.8|68.88|57.76|
+  |L15.H13|25|-0.0442|0.88|0.8|69|13|
+  |L22.H2|25|-0.0126|0.84|0.8|69|58|
 
 ### sympytom-disease
 - 프롬프트 예시: `In a medical context, the term for 'high blood pressure' is '`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L14.H5|26|-0.1298|0.9231|1.0|891.5|228.0769|
-  |L15.H13|26|-0.1195|0.8462|0.9231|891.5|343.3846|
-  |L11.H1|26|-0.0412|0.8077|0.8846|891.5|673.1154|
-  |L14.H7|26|-0.0364|0.8077|0.9231|891.5|576.2308|
-  |L18.H4|26|-0.0298|0.8462|0.8077|891.5|732.1538|
+  |L14.H5|26|-0.1298|0.9231|1.0|892|228|
+  |L15.H13|26|-0.1195|0.8462|0.9231|892|343|
+  |L11.H1|26|-0.0412|0.8077|0.8846|892|673|
+  |L14.H7|26|-0.0364|0.8077|0.9231|892|576|
+  |L18.H4|26|-0.0298|0.8462|0.8077|892|732|
 
 ### specialty
 - 프롬프트 예시: `The medical field that treats the heart is called`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L15.H13|32|-0.1717|0.9063|0.9688|339.75|18.34|
+  |L15.H13|32|-0.1717|0.9063|0.9688|340|18|
 
 ## 17. translation
 
@@ -487,36 +487,36 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 - 프롬프트 예시: `Answer with a Chinese Hanzi. English: 'Star' / Chinese: '`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L14.H5|45|-0.0447|0.8222|0.8444|148.9778|88.8667|
-  |L12.H8|45|-0.0199|0.8|0.8|148.9778|131.4|
-  |L19.H2|45|-0.0109|0.8667|0.8222|148.9778|128.8444|
+  |L14.H5|45|-0.0447|0.8222|0.8444|149|89|
+  |L12.H8|45|-0.0199|0.8|0.8|149|131|
+  |L19.H2|45|-0.0109|0.8667|0.8222|149|129|
 
 ### eng-french
 - 프롬프트 예시: `Answer with a French word. English: 'Sun' / French: '`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L11.H1|41|-0.0454|0.8049|0.8537|234.439|183.2683|
-  |L23.H13|41|-0.018|0.8049|0.878|234.439|202.1463|
+  |L11.H1|41|-0.0454|0.8049|0.8537|234|183|
+  |L23.H13|41|-0.018|0.8049|0.878|234|202|
 
 ### eng-german
 - 프롬프트 예시: `Answer with a German word. English: 'Moon' / German: '`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L11.H1|40|-0.0594|0.825|0.75|219.375|183.925|
-  |L22.H2|40|-0.0403|0.75|0.8|219.375|169.55|
-  |L16.H6|40|-0.0246|0.825|0.7|219.375|174.925|
+  |L11.H1|40|-0.0594|0.825|0.75|219|184|
+  |L22.H2|40|-0.0403|0.75|0.8|219|170|
+  |L16.H6|40|-0.0246|0.825|0.7|219|175|
 
 ### eng-italian
 - 프롬프트 예시: `Answer with an Italian word. English: 'Sun' / Italian: '`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L22.H2|40|-0.0506|0.8|0.925|343.425|219.2|
+  |L22.H2|40|-0.0506|0.8|0.925|343|219|
 
 ### eng-spanish
 - 프롬프트 예시: `Answer with a Spanish word. English: 'Moon' / Spanish: '`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L22.H2|42|-0.053|0.9286|0.9524|109.7857|80.6667|
+  |L22.H2|42|-0.053|0.9286|0.9524|110|81|
 
 ## 18. science
 
@@ -524,18 +524,18 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 - 프롬프트 예시: `The chemical symbol for Hydrogen is`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L13.H6|100|-0.1218|0.81|1|136.09|9.35|
-  |L22.H2|100|-0.0557|0.82|0.98|136.09|62.48|
+  |L13.H6|100|-0.1218|0.81|1|136|9|
+  |L22.H2|100|-0.0557|0.82|0.98|136|62|
 
 ### unit
 - 프롬프트 예시: `The force is 50 newtons. Unit:`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L14.H5|43|-0.0611|1.0|1.0|401.1163|123.8605|
-  |L12.H8|43|-0.0291|0.814|0.8605|401.1163|269.2791|
-  |L18.H4|43|-0.0243|0.8837|0.9767|401.1163|195.8837|
-  |L11.H1|43|-0.0144|0.907|0.9302|401.1163|309.0|
-  |L22.H2|43|-0.0143|0.8605|0.9535|401.1163|332.4651|
+  |L14.H5|43|-0.0611|1.0|1.0|401|124|
+  |L12.H8|43|-0.0291|0.814|0.8605|401|269|
+  |L18.H4|43|-0.0243|0.8837|0.9767|401|196|
+  |L11.H1|43|-0.0144|0.907|0.9302|401|309|
+  |L22.H2|43|-0.0143|0.8605|0.9535|401|332|
 
 ## 19. law
 
@@ -543,13 +543,13 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 - 프롬프트 예시: `The 1st Amendment protects freedom of`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L23.H9|19|-0.0381|0.8421|0.8421|1832.8947|1466.5789|
+  |L23.H9|19|-0.0381|0.8421|0.8421|1833|1467|
 
 ### versus
 - 프롬프트 예시: `The famous case is Miranda v.`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L22.H2|29|-0.0353|0.7586|0.8621|2480.8966|2207.931|
+  |L22.H2|29|-0.0353|0.7586|0.8621|2481|2208|
 
 ## 20. job
 
@@ -557,9 +557,9 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 - 프롬프트 예시: `A librarian works in a`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L16.H1|70|-0.0146|0.7429|0.8|637.31|427.77|
-  |L21.H10|70|-0.0120|0.80|0.7714|637.31|497.17|
-  |L23.H9|70|-0.0101|0.80|0.7143|637.31|566.19|
+  |L16.H1|70|-0.0146|0.7429|0.8|637|428|
+  |L21.H10|70|-0.0120|0.80|0.7714|637|497|
+  |L23.H9|70|-0.0101|0.80|0.7143|637|566|
 
 ## 21. food
 
@@ -567,12 +567,12 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 - 프롬프트 예시: `The taste of lemon is sour.\nThe taste of chocolate is '`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L14.H7|60|-0.0187|0.75|0.8333|18.1|10.12|
-  |L11.H1|60|-0.0131|0.85|0.7|18.1|13.78|
+  |L14.H7|60|-0.0187|0.75|0.8333|18|10|
+  |L11.H1|60|-0.0131|0.85|0.7|18|14|
 
 ### nutrient
 - 프롬프트 예시: `The main nutrient in beef is`
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L16.H2|50|-0.0194|0.8|0.86|167.8|126.86|
-  |L11.H1|50|-0.0218|0.88|0.82|167.8|148.8|
+  |L16.H2|50|-0.0194|0.8|0.86|168|127|
+  |L11.H1|50|-0.0218|0.88|0.82|168|149|

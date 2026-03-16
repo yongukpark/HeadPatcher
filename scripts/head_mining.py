@@ -326,6 +326,10 @@ def _mean(values: list[float]) -> float:
     return sum(values) / len(values) if values else 0.0
 
 
+def _round_rank_metric(value: float) -> int:
+    return int(value + 0.5)
+
+
 def _variance(values: list[float]) -> float:
     if not values:
         return 0.0
@@ -471,13 +475,19 @@ def _evaluate_head_set(
         "base_token_prob_delta_variance": _variance(base_token_prob_deltas),
         "base_token_prob_decrease_ratio": sum(1 for d in base_token_prob_deltas if d < 0) / count,
         "base_token_changed_ratio": sum(1 for r in prompt_metrics if r["base_token_changed"]) / count,
-        "base_token_rank_post_replace_mean": _mean([float(r["base_token_rank_post_replace"]) for r in prompt_metrics]),
+        "base_token_rank_post_replace_mean": _round_rank_metric(
+            _mean([float(r["base_token_rank_post_replace"]) for r in prompt_metrics])
+        ),
         "donor_token_prob_delta_mean": _mean(donor_token_prob_deltas),
         "donor_token_prob_delta_variance": _variance(donor_token_prob_deltas),
         "donor_token_prob_increase_ratio": sum(1 for d in donor_token_prob_deltas if d > 0) / count,
         "donor_token_rank_up_ratio": sum(1 for r in prompt_metrics if r["donor_token_rank_change"] < 0) / count,
-        "donor_token_rank_pre_replace_mean": _mean([float(r["donor_token_rank_pre_replace"]) for r in prompt_metrics]),
-        "donor_token_rank_post_replace_mean": _mean([float(r["donor_token_rank_post_replace"]) for r in prompt_metrics]),
+        "donor_token_rank_pre_replace_mean": _round_rank_metric(
+            _mean([float(r["donor_token_rank_pre_replace"]) for r in prompt_metrics])
+        ),
+        "donor_token_rank_post_replace_mean": _round_rank_metric(
+            _mean([float(r["donor_token_rank_post_replace"]) for r in prompt_metrics])
+        ),
     }
     return prompt_metrics, summary
 
@@ -718,13 +728,19 @@ def main() -> None:
             "base_token_prob_delta_variance": _variance(base_token_prob_deltas),
             "base_token_prob_decrease_ratio": sum(1 for d in base_token_prob_deltas if d < 0) / count,
             "base_token_changed_ratio": sum(1 for r in rows if r["base_token_changed"]) / count,
-            "base_token_rank_post_replace_mean": _mean([float(r["base_token_rank_post_replace"]) for r in rows]),
+            "base_token_rank_post_replace_mean": _round_rank_metric(
+                _mean([float(r["base_token_rank_post_replace"]) for r in rows])
+            ),
             "donor_token_prob_delta_mean": _mean(donor_token_prob_deltas),
             "donor_token_prob_delta_variance": _variance(donor_token_prob_deltas),
             "donor_token_prob_increase_ratio": sum(1 for d in donor_token_prob_deltas if d > 0) / count,
             "donor_token_rank_up_ratio": sum(1 for r in rows if r["donor_token_rank_change"] < 0) / count,
-            "donor_token_rank_pre_replace_mean": _mean([float(r["donor_token_rank_pre_replace"]) for r in rows]),
-            "donor_token_rank_post_replace_mean": _mean([float(r["donor_token_rank_post_replace"]) for r in rows]),
+            "donor_token_rank_pre_replace_mean": _round_rank_metric(
+                _mean([float(r["donor_token_rank_pre_replace"]) for r in rows])
+            ),
+            "donor_token_rank_post_replace_mean": _round_rank_metric(
+                _mean([float(r["donor_token_rank_post_replace"]) for r in rows])
+            ),
         }
         cat_prompt_json_path.write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
         cat_summary_json_path.write_text(json.dumps(cat_summary, ensure_ascii=False, indent=2), encoding="utf-8")
