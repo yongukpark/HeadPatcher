@@ -269,6 +269,19 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
   |L18.H4|37|-0.0301|0.9189|1.0|1273|675|
   |L15.H6|37|-0.0224|0.8649|0.9459|1273|890|
 
+### plural
+
+- 프롬프트 예시: `The plural of child is`
+
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L23.H9|23|-0.0539|1.0000|1.0000|5220.48|4312.78|
+  |L22.H2|23|-0.0450|1.0000|1.0000|5220.48|3850.52|
+  |L20.H6|23|-0.0324|0.8261|0.8696|5220.48|4689.78|
+  |L19.H2|23|-0.0287|1.0000|1.0000|5220.48|3644.30|
+  |L14.H7|23|-0.0126|0.8261|0.8261|5220.48|3936.09|
+  |L23.H2|23|-0.0113|0.9130|0.8696|5220.48|4933.70|
+
 ## 5. place
 
 ### architecture
@@ -397,6 +410,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
 ### indirect_object_identification
 - 프롬프트 예시: `When John and Mary went to the store, Mary gave a book to`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L22.H2|103|-0.1422|0.9903|0.9903|490|258|
@@ -407,6 +421,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
 ### induction_head
 - 프롬프트 예시: `dax wug mib dax wug`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L10.H0|27|-0.1466|0.963|1.0|371|137|
@@ -420,18 +435,21 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
 ### http_error_code
 - 프롬프트 예시: `The HTTP status code for 'Not Found' is '`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L14.H5|13|-0.079|1.0|0.85|15|9|
 
 ### file_extension
 - 프롬프트 예시: `The file extension for Python source files is .`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L22.H2|100|-0.016|0.82|0.86|408|318|
 
 ### port_number
 - 프롬프트 예시: `The default port for HTTP is`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L14.H5|41|-0.133|0.92|0.90|70|29|
@@ -442,6 +460,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
 ### color_fs_corr
 - 프롬프트 예시: `The color of banana is yellow.\nThe color of snow is '`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L11.H1|75|-0.0193|0.88|0.5733|7|5|
@@ -451,6 +470,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
 ### instruments_fs
 - 프롬프트 예시: `Violin is a string instrument. Trumpet is a`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L18.H8|37|-0.0464|0.9730|0.8108|17|9|
@@ -460,6 +480,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
 ### disease-organ
 - 프롬프트 예시: `Identify the affected organ. Disease: Hepatitis / Organ: '`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L15.H13|25|-0.0442|0.88|0.8|69|13|
@@ -467,6 +488,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
 ### sympytom-disease
 - 프롬프트 예시: `In a medical context, the term for 'high blood pressure' is '`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L14.H5|26|-0.1298|0.9231|1.0|892|228|
@@ -477,6 +499,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
 ### specialty
 - 프롬프트 예시: `The medical field that treats the heart is called`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L15.H13|32|-0.1717|0.9063|0.9688|340|18|
@@ -485,6 +508,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
 ### eng-chinese
 - 프롬프트 예시: `Answer with a Chinese Hanzi. English: 'Star' / Chinese: '`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L14.H5|45|-0.0447|0.8222|0.8444|149|89|
@@ -493,6 +517,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
 ### eng-french
 - 프롬프트 예시: `Answer with a French word. English: 'Sun' / French: '`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L11.H1|41|-0.0454|0.8049|0.8537|234|183|
@@ -500,6 +525,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
 ### eng-german
 - 프롬프트 예시: `Answer with a German word. English: 'Moon' / German: '`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L11.H1|40|-0.0594|0.825|0.75|219|184|
@@ -508,12 +534,14 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
 ### eng-italian
 - 프롬프트 예시: `Answer with an Italian word. English: 'Sun' / Italian: '`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L22.H2|40|-0.0506|0.8|0.925|343|219|
 
 ### eng-spanish
 - 프롬프트 예시: `Answer with a Spanish word. English: 'Moon' / Spanish: '`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L22.H2|42|-0.053|0.9286|0.9524|110|81|
@@ -522,6 +550,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
 ### chemical_symbols
 - 프롬프트 예시: `The chemical symbol for Hydrogen is`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L13.H6|100|-0.1218|0.81|1|136|9|
@@ -529,6 +558,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
 ### unit
 - 프롬프트 예시: `The force is 50 newtons. Unit:`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L14.H5|43|-0.0611|1.0|1.0|401|124|
@@ -541,12 +571,14 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
 ### US_amendments
 - 프롬프트 예시: `The 1st Amendment protects freedom of`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L23.H9|19|-0.0381|0.8421|0.8421|1833|1467|
 
 ### versus
 - 프롬프트 예시: `The famous case is Miranda v.`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L22.H2|29|-0.0353|0.7586|0.8621|2481|2208|
@@ -555,6 +587,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
 ### workplace 
 - 프롬프트 예시: `A librarian works in a`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L16.H1|70|-0.0146|0.7429|0.8|637|428|
@@ -565,6 +598,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
 ### yum
 - 프롬프트 예시: `The taste of lemon is sour.\nThe taste of chocolate is '`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L14.H7|60|-0.0187|0.75|0.8333|18|10|
@@ -572,7 +606,84 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
 
 ### nutrient
 - 프롬프트 예시: `The main nutrient in beef is`
+  
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
   |L16.H2|50|-0.0194|0.8|0.86|168|127|
   |L11.H1|50|-0.0218|0.88|0.82|168|149|
+
+### ingredient
+- 프롬프트 예시: `The primary ingredient in guacamole is`
+  
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L15.H7|35|-0.0664|0.94|1.00|453.77|106.54|
+  |L11.H1|35|-0.0186|0.80|0.86|453.77|380.49|
+  |L23.H13|35|-0.0165|0.86|0.94|453.77|395.17|
+
+## 22. animals
+
+### taxonomy
+- 프롬프트 예시: `A dolphin is a type of mammal. An eagle is a type of`
+  
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L16.H2|57|-0.1101|0.7895|0.9825|77.60|17.86|
+  |L16.H15|57|-0.0500|0.7368|0.9474|77.60|28.23|
+  |L21.H10|57|-0.0194|0.7895|0.8947|77.60|52.96|
+
+### habitat
+- 프롬프트 예시: `Habitat of camel is desert.\nHabitat of dolphin is`
+  
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L14.H5|40|-0.0470|0.825|0.95|86.53|29.15|
+  |L16.H15|40|-0.0454|0.825|0.95|86.53|19.05|
+  |L21.H10|40|-0.0145|0.825|0.90|86.53|55.45|
+
+
+## 23. universe
+
+### celestial_object
+- 프롬프트 예시: `Earth is a planet.\nSun is a`
+  
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L14.H5|27|-0.09046|0.9259|0.7407|29.59|10.44|
+
+## 24. sports
+
+### stadium_location
+- 프롬프트 예시: `The home stadium of Manchester United is the`
+  
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L15.H7|25|-0.2321|0.92|1.0|464.48|49.8|
+  |L17.H6|25|-0.1213|0.8|0.92|464.48|99.64|
+
+### worldclass
+- 프롬프트 예시: `Tottenham Hotspur is associated with which sports? Answer:`
+  
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L18.H8|44-0.0933|1.0|0.9545|46.09|13.43|
+  
+## 25. greek mythology
+
+### gods
+- 프롬프트 예시: `In Greek mythology, Zeus is the god of the`
+  
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L15.H7|25|-0.2321|0.92|1.0|464.48|49.8|
+  |L17.H6|25|-0.1213|0.8|0.92|464.48|99.64|
+
+## 26. gender
+
+### opposite_gender
+- 프롬프트 예시: `The opposite gender of queen is the`
+  
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L13.H2|17|-0.0442|0.8235|0.7059|222.00|115.88|
+  |L16.H1|17|-0.0264|0.7647|0.7059|222.00|105.94|
