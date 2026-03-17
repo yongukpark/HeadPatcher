@@ -567,6 +567,13 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
   |L11.H1|43|-0.0144|0.907|0.9302|401|309|
   |L22.H2|43|-0.0143|0.8605|0.9535|401|332|
 
+### celestial_object
+- 프롬프트 예시: `Earth is a planet.\nSun is a`
+  
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L14.H5|27|-0.09046|0.9259|0.7407|29.59|10.44|
+
 ## 19. law
 
 ### US_amendments
@@ -641,17 +648,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
   |L16.H15|40|-0.0454|0.825|0.95|86.53|19.05|
   |L21.H10|40|-0.0145|0.825|0.90|86.53|55.45|
 
-
-## 23. universe
-
-### celestial_object
-- 프롬프트 예시: `Earth is a planet.\nSun is a`
-  
-  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
-  |---|---|---|---|---|---|---|
-  |L14.H5|27|-0.09046|0.9259|0.7407|29.59|10.44|
-
-## 24. sports
+## 23. sports
 
 ### stadium_location
 - 프롬프트 예시: `The home stadium of Manchester United is the`
@@ -668,7 +665,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
   |---|---|---|---|---|---|---|
   |L18.H8|44-0.0933|1.0|0.9545|46.09|13.43|
   
-## 25. Greek mythology
+## 24. Greek mythology
 
 ### gods
 - 프롬프트 예시: `In Greek mythology, Zeus is the god of the`
@@ -678,7 +675,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
   |L15.H7|25|-0.2321|0.92|1.0|464.48|49.8|
   |L17.H6|25|-0.1213|0.8|0.92|464.48|99.64|
 
-## 26. gender
+## 25. gender
 
 ### opposite_gender
 - 프롬프트 예시: `The opposite gender of queen is the`
