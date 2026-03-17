@@ -668,7 +668,7 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
   |---|---|---|---|---|---|---|
   |L18.H8|44-0.0933|1.0|0.9545|46.09|13.43|
   
-## 25. greek mythology
+## 25. Greek mythology
 
 ### gods
 - 프롬프트 예시: `In Greek mythology, Zeus is the god of the`
