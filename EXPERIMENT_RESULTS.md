@@ -269,18 +269,26 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
   |L18.H4|37|-0.0301|0.9189|1.0|1273|675|
   |L15.H6|37|-0.0224|0.8649|0.9459|1273|890|
 
+### opposite_gender
+- 프롬프트 예시: `The opposite gender of queen is the`
+  
+  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
+  |---|---|---|---|---|---|---|
+  |L13.H2|17|-0.0442|0.8235|0.7059|222|116|
+  |L16.H1|17|-0.0264|0.7647|0.7059|222|106|
+
 ### plural
 
 - 프롬프트 예시: `The plural of child is`
 
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L23.H9|23|-0.0539|1.0000|1.0000|5220.48|4312.78|
-  |L22.H2|23|-0.0450|1.0000|1.0000|5220.48|3850.52|
-  |L20.H6|23|-0.0324|0.8261|0.8696|5220.48|4689.78|
-  |L19.H2|23|-0.0287|1.0000|1.0000|5220.48|3644.30|
-  |L14.H7|23|-0.0126|0.8261|0.8261|5220.48|3936.09|
-  |L23.H2|23|-0.0113|0.9130|0.8696|5220.48|4933.70|
+  |L23.H9|23|-0.0539|1.0000|1.0000|5220|4313|
+  |L22.H2|23|-0.0450|1.0000|1.0000|5220|3851|
+  |L20.H6|23|-0.0324|0.8261|0.8696|5220|4690|
+  |L19.H2|23|-0.0287|1.0000|1.0000|5220|3644|
+  |L14.H7|23|-0.0126|0.8261|0.8261|5220|3936|
+  |L23.H2|23|-0.0113|0.9130|0.8696|5220|4934|
 
 ## 5. place
 
@@ -624,9 +632,9 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
   
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L15.H7|35|-0.0664|0.94|1.00|453.77|106.54|
-  |L11.H1|35|-0.0186|0.80|0.86|453.77|380.49|
-  |L23.H13|35|-0.0165|0.86|0.94|453.77|395.17|
+  |L15.H7|35|-0.0664|0.94|1.00|454|107|
+  |L11.H1|35|-0.0186|0.80|0.86|454|380|
+  |L23.H13|35|-0.0165|0.86|0.94|454|395|
 
 ## 22. animals
 
@@ -635,18 +643,18 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
   
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L16.H2|57|-0.1101|0.7895|0.9825|77.60|17.86|
-  |L16.H15|57|-0.0500|0.7368|0.9474|77.60|28.23|
-  |L21.H10|57|-0.0194|0.7895|0.8947|77.60|52.96|
+  |L16.H2|57|-0.1101|0.7895|0.9825|78|18|
+  |L16.H15|57|-0.0500|0.7368|0.9474|78|28|
+  |L21.H10|57|-0.0194|0.7895|0.8947|78|53|
 
 ### habitat
 - 프롬프트 예시: `Habitat of camel is desert.\nHabitat of dolphin is`
   
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L14.H5|40|-0.0470|0.825|0.95|86.53|29.15|
-  |L16.H15|40|-0.0454|0.825|0.95|86.53|19.05|
-  |L21.H10|40|-0.0145|0.825|0.90|86.53|55.45|
+  |L14.H5|40|-0.0470|0.825|0.95|87|29|
+  |L16.H15|40|-0.0454|0.825|0.95|87|19|
+  |L21.H10|40|-0.0145|0.825|0.90|87|55|
 
 ## 23. sports
 
@@ -655,15 +663,15 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
   
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L15.H7|25|-0.2321|0.92|1.0|464.48|49.8|
-  |L17.H6|25|-0.1213|0.8|0.92|464.48|99.64|
+  |L15.H7|25|-0.2321|0.92|1.0|464|50|
+  |L17.H6|25|-0.1213|0.8|0.92|464|100|
 
 ### worldclass
 - 프롬프트 예시: `Tottenham Hotspur is associated with which sports? Answer:`
   
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L18.H8|44-0.0933|1.0|0.9545|46.09|13.43|
+  |L18.H8|44-0.0933|1.0|0.9545|46|13|
   
 ## 24. Greek mythology
 
@@ -672,15 +680,5 @@ README 본문은 실행 흐름과 결과 미리보기 중심으로 유지하고,
   
   |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
   |---|---|---|---|---|---|---|
-  |L15.H7|25|-0.2321|0.92|1.0|464.48|49.8|
-  |L17.H6|25|-0.1213|0.8|0.92|464.48|99.64|
-
-## 25. gender
-
-### opposite_gender
-- 프롬프트 예시: `The opposite gender of queen is the`
-  
-  |head|prompt_count|base_token_prob_delta_mean|base_token_prob_decrease_ratio|donor_token_rank_up_ratio|donor_token_rank_pre_replace_mean|donor_token_rank_post_replace_mean|
-  |---|---|---|---|---|---|---|
-  |L13.H2|17|-0.0442|0.8235|0.7059|222.00|115.88|
-  |L16.H1|17|-0.0264|0.7647|0.7059|222.00|105.94|
+  |L15.H7|25|-0.2321|0.92|1.0|464|50|
+  |L17.H6|25|-0.1213|0.8|0.92|464|100|
